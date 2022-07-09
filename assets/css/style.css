@@ -1,3 +1,27 @@
 body {
     background-color: black;
 }
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    justify-content: flex-start;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+
+nav ul li {
+    padding: 10%;
+    list-style: none;
+    /*justify-content: flex-end;
+    align-items: flex-end;*/
+}
