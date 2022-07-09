@@ -2,6 +2,10 @@ body {
     background-color: black;
 }
 
+/**********************************************
+NAV BAR
+***********************************************/
+
 .container {
     height: 80px;
     display: flex;
@@ -11,6 +15,8 @@ body {
 .flex-item-1{
     width: 80px;
     height: 80px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 .flex-item-2 {
@@ -20,6 +26,8 @@ body {
     color: #fff;
     flex: 1;
     justify-content: flex-end;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav ul li {
@@ -35,5 +43,48 @@ a {
 a:visited {
     color: #fff;
     text-decoration: none;
-    
+}
+
+/**********************************************
+MAIN - INTRO SECTION
+***********************************************/
+
+#intro { 
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+}
+
+.intro-text { 
+    flex: 1;
+    align-self: center;
+    padding-left: 230px;
+    padding-top: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro-text header {
+    color: fuchsia;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.intro-text h1 {
+    font-size: 70px;
+    line-height: 20%;
+}
+
+.intro-text p {
+    font-size: 18px;
+    opacity: 50%;
+    padding-top: 1%;
+}
+
+.intro-image {
+    padding-right: 175px;
+    padding-top: 50px;
+}
+
+.intro-image img {
+    width: 450px;
 }
