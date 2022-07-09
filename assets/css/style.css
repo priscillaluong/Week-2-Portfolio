@@ -2,26 +2,28 @@ body {
     background-color: black;
 }
 
-nav {
+.container {
+    height: 80px;
     display: flex;
     flex-direction: row;
 }
 
-.logo {
-    width: 100px;
-    height: 100px;
-    justify-content: flex-start;
+.flex-item-1{
+    width: 80px;
+    height: 80px;
 }
 
-nav ul {
+.flex-item-2 {
     display: flex;
     flex-direction: row;
+    height: 40px;
     color: #fff;
+    flex: 1;
+    justify-content: flex-end;
 }
 
 nav ul li {
-    padding: 10%;
+    padding: 0px 2%;
+    margin: 3% 1% 0 0;
     list-style: none;
-    /*justify-content: flex-end;
-    align-items: flex-end;*/
 }
