@@ -117,6 +117,21 @@ button {
     max-width: 450px;
 }
 
+/**********************************************
+MAIN - PORTFOLIO SECTION
+***********************************************/
+
+#portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#portfolio *> h2 {
+    color: #fff;
+}
+
 /*@media screen and (max-width: 992px) {
     .card {width: 50%;}
   }*/
@@ -184,4 +199,35 @@ button {
         justify-content: center;
         text-align: center;
     }
+
+    /******** PORTFOLIO SECTION *****/
+
+    #portfolio {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .main-proj {
+        margin: 6px;
+        width: 94%;
+        height: 200px;
+        background-color: grey;
+    }
+
+    .proj-1, .proj-2, .proj-3,
+    .proj-4, .proj-5, .proj-6 {
+        width: 46%;
+        height: 150px;
+        background-color: grey;
+    }
+
+    .proj-1, .proj-3, .proj-5 {
+        margin: 6px 0 6px 6px;
+    }
+
+    .proj-2, .proj-4, .proj-6 {
+        margin: 6px 6px 6px 0;
+    }
+}
 }
