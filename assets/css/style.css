@@ -1,5 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: black;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
 }
 
 /**********************************************
@@ -7,7 +17,7 @@ NAV BAR
 ***********************************************/
 
 .container {
-    height: 80px;
+    height: 100px;
     display: flex;
     flex-direction: row;
 }
@@ -53,14 +63,16 @@ MAIN - INTRO SECTION
 #intro { 
     display: flex;
     flex-direction: row;
-    height: 500px;
+    /*height: 500px;*/
+    min-height: 100vh;
+    justify-content: center;
+
 }
 
 .intro-text { 
     flex: 1;
     align-self: center;
     padding-left: 230px;
-    padding-top: 130px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -72,7 +84,7 @@ MAIN - INTRO SECTION
 
 .intro-text h1 {
     font-size: 70px;
-    line-height: 20%;
+    font-size: clamp(1rem, 2.5vw, 2rem); 
 }
 
 .intro-text p {
@@ -81,11 +93,30 @@ MAIN - INTRO SECTION
     padding-top: 1%;
 }
 
+.button {
+    font-family: 'Courier New', Courier, monospace;
+    border: fuchsia solid;
+    cursor: pointer;
+}
+
 .intro-image {
     padding-right: 175px;
-    padding-top: 50px;
+    align-self: center;
+    align-items: center;
 }
 
 .intro-image img {
-    width: 450px;
+    max-width: 450px;
 }
+
+/*@media screen and (max-width: 992px) {
+    .card {width: 50%;}
+  }*/
+
+@media screen and (max-width: 768px) {
+    .container,
+    .flex-item-2 {
+      flex-direction: column;
+    }
+
+  }
