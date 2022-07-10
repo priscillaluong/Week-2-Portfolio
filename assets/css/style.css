@@ -52,6 +52,9 @@ a {
     color: #fff;
 }
 
+a:hover {
+    cursor: pointer;
+}
 a:visited {
     color: #fff;
     text-decoration: none;
@@ -98,7 +101,7 @@ MAIN - INTRO SECTION
     line-height: 90px;
 }
 
-.button {
+button {
     font-family: 'Courier New', Courier, monospace;
     border: fuchsia solid;
     cursor: pointer;
