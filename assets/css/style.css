@@ -116,6 +116,14 @@ button {
 .intro-image img {
     max-width: 450px;
 }
+/**********************************************
+MAIN - ABOUT SECTION
+***********************************************/
+
+.about-text {
+    text-align: center;
+    color: #fff;
+}
 
 /**********************************************
 MAIN - PORTFOLIO SECTION
@@ -128,8 +136,14 @@ MAIN - PORTFOLIO SECTION
     width: 100%;
 }
 
+#portfolio *> a {
+    cursor: pointer;
+}
+
 #portfolio *> h2 {
     color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
 }
 
 /*@media screen and (max-width: 992px) {
@@ -200,12 +214,28 @@ MAIN - PORTFOLIO SECTION
         text-align: center;
     }
 
+    /******** ABOUT SECTION *****/
+
+    .about-text {
+        text-align: center;
+    }
+
     /******** PORTFOLIO SECTION *****/
 
     #portfolio {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
+    }
+
+    #portfolio *> h2 {
+        text-align: center;
+        line-height: 9;
+    }
+
+    .main-proj > h2 {
+        line-height: 15;
+        margin-top: 25px;
     }
 
     .main-proj {
@@ -229,5 +259,4 @@ MAIN - PORTFOLIO SECTION
     .proj-2, .proj-4, .proj-6 {
         margin: 6px 6px 6px 0;
     }
-}
 }
