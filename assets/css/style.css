@@ -21,6 +21,9 @@ NAV BAR
     display: flex;
     flex-direction: row;
     width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: black;
 }
 
 .flex-item-1{
@@ -165,7 +168,7 @@ MAIN - PORTFOLIO SECTION
 }
 
 .main-proj {
-    margin: 150px;
+    margin: 50px;
     width: 100%;
     height: 250px;
     background-color: grey;
@@ -256,6 +259,7 @@ FOOTER
         display: block;
         text-align: center;
         margin: 0 auto;
+        position: static;
     }
 
     .flex-item-1 {
