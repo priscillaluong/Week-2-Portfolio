@@ -120,9 +120,24 @@ button {
 MAIN - ABOUT SECTION
 ***********************************************/
 
+#about {
+    display: flex;
+    display: row;
+}
+
 .about-text {
     text-align: center;
     color: #fff;
+    padding: 30px 100px 30px 200px;
+    line-height: 30px;
+}
+
+.about-image {
+    padding: 30px 200px 30px 50px;
+}
+
+.about-image img {
+    width: 400px;
 }
 
 /**********************************************
@@ -133,6 +148,7 @@ MAIN - PORTFOLIO SECTION
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
 }
 
@@ -144,11 +160,47 @@ MAIN - PORTFOLIO SECTION
     color: #fff;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 400;
+    text-align: center;
+    line-height: 9;
 }
+
+/*
+
+REVIEW BELOW CODE: 
+
+.main-proj > h2 {
+    line-height: 15;
+    margin-top: 25px;
+}
+
+.main-proj {
+    margin: 6px;
+    width: 94%;
+    height: 200px;
+    background-color: grey;
+}
+
+.proj-1, .proj-2, .proj-3,
+.proj-4, .proj-5, .proj-6 {
+    width: 46%;
+    height: 150px;
+    background-color: grey;
+}
+
+.proj-1, .proj-3, .proj-5 {
+    margin: 6px 0 6px 6px;
+}
+
+.proj-2, .proj-4, .proj-6 {
+    margin: 6px 6px 6px 0;
+}
+*/
 
 /**********************************************
 MAIN - CONTACT SECTION
 ***********************************************/
+
+
 
 /**********************************************
 FOOTER
