@@ -284,10 +284,27 @@ FOOTER
 ***********************************************/
 
 footer {
-    opacity: 40%;
     color: #fff;
     padding: 20px;
+    margin: 5px 5px 15px 5px;
     text-align: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+.fa-linkedin {
+    color: white;
+  }
+
+.copyright {
+    opacity: 40%;
 }
 
 
