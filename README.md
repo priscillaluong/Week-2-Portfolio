@@ -51,9 +51,11 @@ I approached this task by first creating a wireframe on Adobe InDesign to ensure
     }
 ```
 
-* It's also important to create a responsive layout that adapts to different viewports to improve the user experience and enhance interactions. Above is a section of my code in *style.css*. For viewports of 768px and under, the flex-direction changes to columns instead of rows.
+It's also important to create a responsive layout that adapts to different viewports to improve the user experience and enhance interactions. Above is a section of my code in *style.css*. For viewports of 768px and under, the flex-direction changes to columns instead of rows.
 
 ## URL to Deployed Application:
+
+https://priscillaluong.github.io/week-2-portfolio/
 
 #### Final note: 
 
