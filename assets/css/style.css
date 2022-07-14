@@ -133,16 +133,13 @@ MAIN - ABOUT SECTION
 .about-text header {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 30px;
+    text-shadow: 1.5px 1.5px 3px #fff;
+    color: fuchsia
 }
 
 .about-text {
     text-align: center;
     padding: 50px 100px 30px 200px;
-}
-
-.about-text header {
-    text-shadow: 1.5px 1.5px 3px #fff;
-    color: fuchsia
 }
 
 .about-text p {
@@ -173,10 +170,23 @@ MAIN - PORTFOLIO SECTION
 }
 
 .main-proj {
-    margin: 50px 180px 10px 180px;
+    margin: 50px 180px 220px 180px;
     width: 100%;
-    height: 300px;
-    background-color: grey;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-proj a h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    text-shadow: 1.5px 1.5px 3px #fff;
+    color: fuchsia;
+}
+
+.main-proj-img img{
+    width: 100%;
+    height: 100%;
 }
 
 .proj-1, .proj-2, .proj-3,
@@ -201,11 +211,9 @@ MAIN - PORTFOLIO SECTION
 #portfolio *> h2 {
     color: #fff;
     font-family: Helvetica, Arial, sans-serif;
-    font-weight: 400;
     text-align: center;
     line-height: 9;
 }
-
 /**********************************************
 MAIN - EXPERIENCE SECTION
 ***********************************************/
@@ -220,6 +228,8 @@ MAIN - EXPERIENCE SECTION
 .experience-text header {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 30px;
+    text-shadow: 1.5px 1.5px 3px #fff;
+    color: fuchsia;
 }
 
 .experience-text {
@@ -247,19 +257,46 @@ MAIN - CONTACT SECTION
 
 #contact {
     border-radius: 5px;
-    background-color: #f2f2f2;
     padding: 20px;
-    width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contact header {
+    line-height: 80px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    text-shadow: 1.5px 1.5px 3px #fff;
+    color: fuchsia;
+    align-self: center;
 }
 
 form {
+    width: 70%;
+    align-self: center;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#contact label {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+input[type=text] {
+    width: 100%;
+}
+
+input[type=email], textarea {
+    width: 100%;
 }
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], input[type=email], textarea {
-    width: 40%; /* Full width */
     padding: 12px; /* Some padding */ 
     border: 1px solid #ccc; /* Gray border */
     border-radius: 4px; /* Rounded borders */
@@ -270,19 +307,22 @@ input[type=text], input[type=email], textarea {
   }
   
   /* Style the submit button with a specific background color etc */
-  input[type=submit] {
-      width: 40%;
-      background-color: #04AA6D;
-      color: white;
+  input[type=send] {
+      width: 100%;
+      border-color: fuchsia;
+      color:white;
+      background-color: black;
       padding: 12px 20px;
-      border: none;
+      border: 2px solid fuchsia;
       border-radius: 4px;
+      text-align: center;
       cursor: pointer;
   }
   
   /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-      background-color: #45a049;
+  input[type=send]:hover {
+      background-color: grey;
+      border: 2px solid grey;
   }
 
 /**********************************************
@@ -440,4 +480,5 @@ footer {
         flex-direction: column;
         flex-wrap: wrap;
     }
+
 }
