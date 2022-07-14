@@ -70,7 +70,6 @@ MAIN - INTRO SECTION
 #intro { 
     display: flex;
     flex-direction: row;
-    /*height: 500px;*/
     min-height: 100vh;
     justify-content: center;
 
@@ -295,18 +294,16 @@ input[type=email], textarea {
     width: 100%;
 }
 
-/* Style inputs with type="text", select elements and textareas */
 input[type=text], input[type=email], textarea {
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+} 
   
-  /* Style the submit button with a specific background color etc */
   input[type=send] {
       width: 100%;
       border-color: fuchsia;
@@ -319,7 +316,6 @@ input[type=text], input[type=email], textarea {
       cursor: pointer;
   }
   
-  /* When moving the mouse over the submit button, add a darker green color */
   input[type=send]:hover {
       background-color: grey;
       border: 2px solid grey;
@@ -457,6 +453,10 @@ footer {
         width: 94%;
         height: 200px;
         background-color: grey;
+    }
+
+    .main-proj-img img{
+        display: none;
     }
 
     .proj-1, .proj-2, .proj-3,
