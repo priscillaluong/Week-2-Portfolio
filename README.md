@@ -35,8 +35,8 @@ I approached this task by first creating a wireframe on Adobe InDesign to ensure
 
 ## Using Media Queries to create a responsive layout:
 
-<img src="./assets/images/mobile_nav.png" alt="Responsive Nav Bar" width="360"/>
-<img src="./assets/images/mobile_proj.png" alt="Responsive Project Section" width="350"/>
+<img src="./assets/images/mobile_nav.png" alt="Responsive Nav Bar" width="320"/>
+<img src="./assets/images/mobile_proj.png" alt="Responsive Project Section" width="310"/>
 
 ```
 @media screen and (max-width: 768px) {
