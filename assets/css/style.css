@@ -188,6 +188,16 @@ MAIN - PORTFOLIO SECTION
     height: 100%;
 }
 
+.proj-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.proj-1-img img{
+    width: 100%;
+    height: 100%;
+}
+
 .proj-1, .proj-2, .proj-3,
 .proj-4, .proj-5, .proj-6 {
     width: 37%;
@@ -195,11 +205,20 @@ MAIN - PORTFOLIO SECTION
     background-color: grey;
 }
 
-.proj-1, .proj-3, .proj-5 {
+.proj-1 {
+    margin: 25px 10px 20px 75px;
+}
+
+.proj-2 {
+    margin: 25px 75px 20px 10px;
+    height: 265px;
+}
+
+.proj-3, .proj-5 {
     margin: 10px 10px 10px 130px;
 }
 
-.proj-2, .proj-4, .proj-6 {
+.proj-4, .proj-6 {
     margin: 10px 130px 10px 10px;
 }
 
