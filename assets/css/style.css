@@ -196,7 +196,7 @@ MAIN - PORTFOLIO SECTION
     height: 100%;
 }
 
-.proj-1 {
+.proj-1, .proj-2 {
     display: flex;
     justify-content: center;
 }
