@@ -5,6 +5,7 @@
     <title>Priscilla Luong Portfolio</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,6 +13,33 @@
 
 <body>
     <!------------ NAVIGATION BAR ------------>
+<!--     <nav class="navbar navbar-expand-lg navbar-light bg-light nav-height">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <img class="logo" src="./assets/images/profile-pic1.png" alt="profile photo" width="60">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav> -->
+
     <nav class="container">
         <img class="flex-item-1" src="./assets/images/profile-pic1.png" alt="Priscilla Luong Logo">
         <ul class="flex-item-2">
@@ -49,22 +77,26 @@
         <!------------ PORTFOLIO SECTION ------------>
         <section id="portfolio">
             <div class="main-proj">
-                <a href="https://priscillaluong.github.io/destination-guide-w7/"><h2>Featured Project - Destination Guide</h2>
+                <a href="https://calm-gorge-52770.herokuapp.com/"><h2>Featured Project - Destination Guide</h2>
                 <div class="main-proj-img">
-                    <img src="./assets/images/destination-guide.png">
+                    <img src="./assets/images/tradr.png">
                 </div>
                 </a>
             </div>
             
             <div class="proj-1">
-                <a href="https://priscillaluong.github.io/competition/">
+                <a href="https://priscillaluong.github.io/destination-guide-w7/">
                     <div class="proj-1-img">
-                        <img src="./assets/images/baxters.png">
+                        <img src="./assets/images/destination-guide.png">
                     </div>
                 </a>
             </div>
             <div class="proj-2">
-                <a href="proj-2.html"><h2>Project 2</h2></a>
+                <a href="https://priscillaluong.github.io/competition/">
+                    <div class="proj-2-img">
+                        <img src="./assets/images/baxters.png">
+                    </div>
+                </a>
             </div>
             <div class="proj-3">
                 <a href="proj-3.html"><h2>Project 3</h2></a>
@@ -79,6 +111,8 @@
                 <a href="proj-6.html"><h2>Project 6</h2></a>
             </div>
         </section>
+         <!------------ MODAL SECTION ------------>
+        <div class="modal-dialog modal-xl">...</div>
         <!------------ EXPERIENCE SECTION ------------>
         <section id="experience">
             <div class="experience-text">
@@ -117,6 +151,8 @@
     <a href="https://instagram.com/priscillaluong" class="fa fa-instagram"></a>
     <header class="copyright">&copy; 2022 Priscilla Luong. All rights reserved</header>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script type="module" src="./assets/script.js"></script>
 </body>
 
 </html>
